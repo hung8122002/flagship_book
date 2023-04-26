@@ -1,0 +1,87 @@
+@import url(./layout.css);
+@import url(../components/input/input.css);
+@import url(../assets/icon/fontawesome-free-6.2.1-web/css/all.min.css);
+
+* {
+    margin: 0;
+    font-family: CTM-web;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none !important;
+    color: unset !important;
+}
+
+a:hover {
+    color: unset !important;
+}
+
+p {
+    margin: 0;
+}
+
+:root {
+    --menu-width: 200px;
+}
+
+@font-face {
+    font-family: CTM-web;
+    src: url(../assets/fonts/notosans-regular.2cb88a13.woff2);
+}
+
+@font-face {
+    font-family: CTM-web-bold;
+    src: url(../assets/fonts/notosans-bold.3ede5aff.woff2);
+}
+
+::-webkit-scrollbar {
+    width: 7px;
+    height: 7px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #9E9E9E;
+    border-radius: 4px;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.v-expansion-panel-text__wrapper {
+    padding-bottom: 0 !important;
+}
+
+.loading-result,
+.loading {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #fff;
+    z-index: 4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loading-result p,
+.loading p {
+    font-size: 24px;
+    margin: 20px;
+    font-weight: bold;
+}

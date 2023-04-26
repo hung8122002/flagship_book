@@ -1,0 +1,142 @@
+.detail {
+    margin-top: 140px;
+    display: flex;
+    padding: 12px 48px;
+    gap: 20px;
+}
+
+.detail p {
+    margin: 0;
+}
+
+.detail .detail-left {
+    width: 24%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.detail-right {
+    flex: 1;
+    display: flex;
+    gap: 20px;
+    background: #f3f3f3;
+    padding: 15px 20px;
+}
+
+.detail-right .right-title {
+    width: 60%;
+}
+
+.detail-right .right-contain {
+    flex: 1;
+}
+
+.detail-left img {
+    width: 100%;
+}
+
+p.title {
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 8px;
+}
+
+.info label:first-child {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.price label:last-child,
+.info label:last-child {
+    font-size: 16px;
+    margin-left: 4px;
+}
+
+.price label:last-child {
+    font-size: 20px;
+    color: red;
+    font-weight: bold;
+}
+
+.price label:first-child,
+.description label {
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 8px;
+}
+
+.price label:first-child {
+    font-size: 20px;
+}
+
+.description p {
+    height: 136px;
+    overflow: auto;
+}
+
+.price {
+    padding: 3px 30px;
+    background-color: #f7941d;
+    transform: skew(10deg);
+    margin: 20px 10px;
+}
+
+.detail-number {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 20px;
+    padding: 10px 0;
+}
+
+.detail-number span {
+    font-size: 15px;
+    color: #498374;
+}
+
+.price p {
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    color: #fff;
+    transform: skew(-10deg);
+}
+
+.detail-btn {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.detail-btn button {
+    width: 100%;
+}
+
+@media only screen and (min-width: 741px) and (max-width:1024px) {
+    .detail-left img {
+        width: 74%;
+    }
+}
+
+@media only screen and (max-width: 740px) {
+    .detail {
+        flex-direction: column;
+        margin-top: 80px;
+        padding: 20px;
+    }
+
+    .detail .detail-left {
+        width: 100%;
+    }
+
+    .detail-right {
+        flex-direction: column;
+    }
+
+    .detail-right .right-title {
+        width: 100%;
+    }
+}

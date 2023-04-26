@@ -1,0 +1,63 @@
+.about {
+    margin-top: 120px;
+    padding: 30px 36px;
+}
+
+/* about title */
+p.about-title {
+    font-family: Poynter, Georgia, serif;
+    font-style: italic;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+/* about contain */
+.about-contain {
+    margin: 0 160px;
+    max-height: 280px;
+    overflow: hidden;
+    transition: all ease .4s;
+}
+
+.show-change {
+    max-height: 2000px;
+}
+
+.about-item .item-title {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.about-item .item-description {
+    color: #454f56;
+}
+
+.about-item .item-description a {
+    text-decoration: underline !important;
+    font-weight: 600;
+    color: #000000;
+    cursor: pointer;
+}
+
+.about-item+.about-item {
+    padding-top: 20px;
+    border-top: 1px solid #ccc;
+}
+
+/* show btn */
+button.show-btn {
+    width: 100%;
+    background: transparent;
+    border: none;
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 740px) {
+    .about {
+        margin-top: 80px;
+        padding: 20px;
+    }
+    .about-contain {
+        margin: 0 16px;
+    }
+}

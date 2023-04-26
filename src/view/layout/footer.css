@@ -1,0 +1,125 @@
+/* footer top */
+.footer-top-carousel .carousel-item > div,
+.footer-top {
+    display: flex;
+    padding: 20px 40px;
+    justify-content: space-between;
+    background-color: #498374;
+    color: #fff;
+}
+
+.footer-top-carousel .carousel-item > div {
+    justify-content: space-evenly;
+}
+
+.footer-top > div {
+    display: flex;
+}
+
+.footer-top-carousel .carousel-item a,
+.footer-top a {
+    font-size: 36px;
+    margin-right: 8px;
+}
+
+.footer-top-carousel .carousel-item p,
+.footer-top p {
+    margin: 0;
+    padding: 0;
+}
+
+.footer-top-carousel .carousel-item p:first-child,
+.footer-top p:first-child {
+    font-size: 15px;
+}
+
+.footer-top-carousel .carousel-indicators {
+    display: none !important;
+}
+
+/* footer bottom */
+.footer-bottom {
+    display: flex;
+    padding: 20px 40px;
+    justify-content: space-between;
+}
+
+.footer-bottom div {
+    width: 20%;
+}
+
+.footer-bottom div:first-child {
+    width: 30%;
+}
+
+.footer-bottom h4 {
+    color: #498374;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.footer-bottom ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-bottom li {
+    margin-bottom: 8px;
+    cursor: pointer;
+    transition: all ease-in-out .1s;
+}
+
+.footer-bottom li:hover {
+    color: #498374;
+    padding-left: 8px;
+    border-left: 2px solid #498374;
+    font-weight: bold;
+}
+
+.more-description {
+    padding: 0 40px;
+}
+
+/* copy right */
+.copy-right {
+    padding: 10px 40px;
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    margin-top: 10px;
+}
+
+.copy-right p {
+    margin: 0;
+}
+
+.copy-right a {
+    color: #498374 !important;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.footer-top-carousel {
+    display: none;
+}
+
+@media only screen and (max-width: 740px) {
+    .footer-top-carousel {
+        display: block;
+    }
+
+    .footer-top {
+        display: none;
+    }
+
+    /* footer bottom */
+    .footer-bottom {
+        flex-wrap: wrap;
+        padding: 12px;
+    }
+    .footer-bottom div {
+        width: 50% !important;
+        padding: 0 12px;
+    }
+}

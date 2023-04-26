@@ -1,0 +1,46 @@
+.contact {
+    margin-top: 160px;
+    gap: 20px;
+    padding: 0 36px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* contact left */
+.feedback>p,
+.address>p {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.address p {
+    margin: 0;
+}
+
+.address .v-icon-m {
+    border: 1px solid #498374;
+    margin-right: 8px;
+}
+
+.address>div {
+    display: flex;
+    align-items: center;
+    margin: 12px 0;
+}
+
+iframe {
+    height: 70vh;
+    width: 55vw;
+}
+
+@media only screen and (max-width: 740px) {
+    .contact {
+        margin-top: 80px;
+        padding: 12px;
+        flex-direction: column;
+    }
+
+    iframe {
+        width: 100%;
+    }
+}

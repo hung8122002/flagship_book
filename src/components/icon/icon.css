@@ -1,0 +1,19 @@
+.v-icon-m {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+    color: #484848;
+    cursor: pointer;
+    background-color: #fff;
+    transition: all ease-in-out .3s;
+}
+
+.v-icon-m:hover {
+    background-color: #498374;
+    color: #fff;
+}

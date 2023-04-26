@@ -1,0 +1,15 @@
+.user {
+    margin-top: 120px;
+    padding: 30px 120px;
+}
+
+@media only screen and (max-width: 740px) {
+    .user {
+        padding: 0;
+        margin-top: 70px;
+    }
+
+    .v-slide-group.v-slide-group--vertical.v-tabs.v-tabs--vertical.v-tabs--align-tabs-start.v-tabs--density-default {
+        width: 40px;
+    }
+}

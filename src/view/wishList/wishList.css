@@ -1,0 +1,121 @@
+/* wish lits */
+.showWishList {
+    background-color: rgb(224, 224, 224, 0.9);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    align-items: center;
+    justify-content: center;
+    display: none;
+    transition: all ease-in-out 0.3s;
+}
+
+/* close */
+.wishList-container>div:first-child {
+    width: 36px;
+    height: 36px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 1;
+}
+
+/* wish list container */
+.wishList-container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 35%;
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    transform: translateX(100%);
+    transition: all ease-in-out 0.3s;
+}
+
+/* wish list contain top */
+
+.wishList-top>p {
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    display: inline-block;
+    padding: 8px;
+}
+
+.wishList-top p::before,
+.wishList-top p::after {
+    content: "";
+    position: absolute;
+    height: 1px;
+    width: 90%;
+    border-bottom: 2px solid #ccc;
+    bottom: 20px;
+}
+
+.wishList-top p::after {
+    right: 100%
+}
+
+.wishList-top p::before {
+    left: 100%
+}
+
+/* wish list contain center */
+.wishList-center>a {
+    width: calc(100% / 2 - 12px / 2);
+    height: 70%;
+}
+
+.wishList-center {
+    height: calc(100% - 100px);
+    overflow: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 12px;
+    padding: 8px;
+}
+
+/* wish list contain bottom  */
+.wishList-bottom {
+    margin: 12px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.wishList-bottom button {
+    height: 36px;
+    width: 45%;
+}
+
+/* show wish list */
+.showWishList {
+    display: flex;
+}
+
+.showWishList .wishList-container {
+    transform: translateX(0);
+}
+
+@media only screen and (min-width: 740px) and (max-width: 1024px) {
+    .wishList-container {
+        width: 45%;
+    }
+}
+
+@media only screen and (max-width: 740px) {
+    .wishList-center>a {
+        height: 50%;
+    }
+    .wishList-container {
+        width: 100%;
+    }
+}

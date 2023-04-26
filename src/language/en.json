@@ -1,0 +1,62 @@
+{
+    "account": {
+        "tab1": {
+            "title": "Account",
+            "user-info": "User information"
+        },
+        "tab2": {
+            "title": "Order",
+            "view": "View",
+            "date": "Buy Date",
+            "status": "Status"
+        },
+        "tab3": {
+            "title": "Setting",
+            "language": "Language",
+            "logout": "Logout",
+            "delete": "The account will be deleted and cannot be accessed anymore"
+        },
+        "tab4": {
+            "title": "History",
+            "date": "Delivered Date"
+        }
+    },
+    "language": {
+        "vn": "Vietnamese",
+        "en": "English"
+    },
+    "status": {
+        "success": "Success",
+        "error": "Error",
+        "failure": "Failure"
+    },
+    "action": {
+        "delete": "Delete",
+        "save": "Save",
+        "add": "add",
+        "remove": "remove",
+        "confirm": "Confirm",
+        "sort": "Sort",
+        "select": "Select",
+        "agree": "Agree",
+        "disagree": "Disagree"
+    },
+    "order": {
+        "ship": "Ship method",
+        "pay": "Payment method",
+        "price": "Price",
+        "total": "Total"
+    },
+    "user": {
+        "user-name": "User name",
+        "fullname": "Fullname",
+        "email": "Email",
+        "phone-number": "Phone number",
+        "address": "Address",
+        "change-password": "Change Password",
+        "old-password": "Old Password",
+        "new-password": "New Password",
+        "new-password-confirm": "New Password Confirm"
+    },
+    "loading": "Loading... Please wait in few seconds"
+}

@@ -1,0 +1,178 @@
+.buy-now {
+    padding: 30px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 3;
+    background-color: #fff;
+    z-index: 4;
+}
+
+.buy-now p {
+    margin: 0;
+    color: #333;
+    font-size: 14px;
+}
+
+.buy-now>p {
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+    color: #000;
+    font-family: "FontAwesome";
+    letter-spacing: 4px;
+    padding: 0 16px;
+    margin-bottom: 40px;
+}
+
+/* buy info */
+.buy-info {
+    display: flex;
+    gap: 20px;
+}
+
+.buy-info>div {
+    width: calc(100% / 3 - 40px / 3);
+}
+
+.buy-left>p,
+.buy-right>p,
+.buy-center>p {
+    font-size: 18px;
+    color: #333;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+
+.buy-info img {
+    max-width: 80px;
+    max-height: 120px;
+    margin-right: 20px;
+}
+
+/* buy left */
+.buy-left {
+    padding-left: 20px;
+    border-left: 1px solid #498374;
+    background-color: #fafafa;
+}
+
+.buy-left>p {
+    margin: 0;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #498374;
+    margin-bottom: 10px;
+}
+
+.buy-left .order-detail {
+    max-height: 300px;
+    overflow: auto;
+}
+
+.buy-now-item {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+    align-items: center;
+}
+
+.buy-now-item>div:last-child {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    background-color: #498374;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 24px;
+    color: #fff;
+    right: 73%;
+    top: -10px;
+    font-size: 13px;
+}
+
+.buy-now-item>div:first-child {
+    display: flex;
+    width: 85%;
+    align-items: center;
+}
+
+.buy-now-item>p {
+    color: #498374;
+    font-weight: bold;
+    margin-right: 12px;
+}
+
+.order-price {
+    margin-top: 10px;
+    padding: 10px 0;
+    border-top: 1px solid #498374;
+}
+
+.order-buy p,
+.order-price p {
+    margin-bottom: 4px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.order-buy span,
+.order-price span {
+    margin-right: 16px;
+    color: #498374;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.order-buy p,
+.order-buy span {
+    font-size: 20px;
+}
+
+.order-buy {
+    border-top: 1px solid #498374;
+    padding: 10px 0;
+}
+
+.order-buy > div {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.buy-btn-mobile {
+    display: none;
+}
+
+@media only screen and (max-width: 740px){
+    .buy-now {
+        overflow: auto;
+        padding: 15px;
+    }
+
+    .buy-info {
+        flex-direction: column-reverse;    
+    }
+
+    .buy-info>div {
+        width: 100%;
+    }
+
+    .order-buy > div {
+        display: none;
+    }
+
+    .buy-btn-mobile {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .buy-info>div {
+        padding: 0;
+        border: 0;
+    }
+}

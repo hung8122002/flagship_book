@@ -1,0 +1,64 @@
+{
+    "account": {
+        "tab1": {
+            "title": "Tài khoản",
+            "user-info": "Tài khoản người dùng"
+        },
+        "tab2": {
+            "title": "Đơn hàng",
+            "view": "Xem",
+            "date": "Ngày đặt",
+            "status": "Tình trạng"
+        },
+        "tab3": {
+            "title": "Cài đặt",
+            "language": "Ngôn ngữ",
+            "logout": "Đăng xuất",
+            "delete": "Tài khoản sẽ bị xóa và không thể truy cập lại"
+        },
+        "tab4": {
+            "title": "Lịch sử",
+            "language": "Language",
+            "logout": "Logout",
+            "delete": "The account will be deleted and cannot be accessed anymore"
+        }
+    },
+    "language": {
+        "vn": "Tiếng việt",
+        "en": "Tiếng anh"
+    },
+    "status": {
+        "success": "Thành công",
+        "error": "Lỗi",
+        "failure": "Thất bại"
+    },
+    "action": {
+        "delete": "Xóa",
+        "save": "Lưu",
+        "add": "Thêm",
+        "remove": "Bỏ",
+        "confirm": "Xác nhận",
+        "sort": "Sắp xếp",
+        "select": "Chọn",
+        "agree": "Đồng ý",
+        "disagree": "Hủy"
+    },
+    "order": {
+        "ship": "Phương thức giao hàng",
+        "pay": "Phương thức thanh toán",
+        "price": "Giá",
+        "total": "Tổng tiền"
+    },
+    "user": {
+        "user-name": "Tài khoản người dùng",
+        "fullname": "Tên đầy đủ",
+        "email": "Email",
+        "phone-number": "Số điện thoại",
+        "address": "Địa chỉ",
+        "change-password": "Đổi mật khẩu",
+        "old-password": "Mật khẩu cũ",
+        "new-password": "Mật khẩu mới",
+        "new-password-confirm": "Xác nhận lại mật khẩu"
+    },
+    "loading": "Đang tải... Vui lòng đợi trong giây lát"
+}

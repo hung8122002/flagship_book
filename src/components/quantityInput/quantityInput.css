@@ -1,0 +1,30 @@
+.qInput {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.qInput div {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border: solid 1px #e1e1e1;
+    background-color: #fff;
+    color: #252525;
+    border-radius: 4px;
+}
+
+.qInput input {
+    margin: 0 4px;
+    outline: unset;
+    width: 40px;
+    height: 30px;
+    text-align: center;
+    padding: 8px;
+    border: solid 1px #e1e1e1;
+    background-color: #fff;
+    color: #252525;
+    border-radius: 4px;
+}

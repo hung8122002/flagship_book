@@ -1,0 +1,121 @@
+/* item */
+.item {
+    height: 100%;
+    cursor: pointer;
+    box-shadow: 0 4px 8px #ddd;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+/* item header */
+.item-header {
+    width: 100%;
+    height: 75%;
+    position: relative;
+    overflow: hidden;
+}
+
+.item-header img {
+    width: 100%;
+    height: 100%;
+}
+
+/* wish list */
+.wishList-item {
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 4px;
+    transition: all ease-in-out 0.1s;
+}
+
+.isWishList .v-icon-m {
+    background-color: pink;
+    color: #fff;
+}
+
+/* item body */
+
+.item-body {
+    padding: 8px;
+    text-align: center;
+}
+
+p.body-title {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #252525;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.item-body .body-price {
+    color: #498374;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.item-body .body-status {
+    color: #f7941d;
+    font-size: 15px;
+}
+
+/* item footer */
+.item-footer {
+    width: 100%;
+    justify-content: space-between;
+    position: absolute;
+    display: flex;
+    bottom: 0;
+    transform: translateY(100%);
+    transition: all ease-in-out 0.3s;
+}
+
+.item:hover .item-footer {
+    transform: translateY(0);
+    padding: 8px 28px;
+    transition: all ease-in-out 0.3s;
+}
+
+.item-footer a {
+    font-size: 10px;
+}
+
+.item-footer button {
+    border: 2px solid #000;
+    border-radius: 20px;
+    height: 36px;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(0, 255, 255, 0.505);
+    font-weight: bold;
+}
+
+.item-footer button:first-child {
+    background-color: #fff;
+}
+
+@media only screen and (max-width: 740px) {
+    .body-title {
+        font-size: 25px;
+    }
+
+    .body-price {
+        font-size: 23px;
+    }
+
+    .item-footer button {
+        width: 48%;
+        height: 40px;
+        font-size: 16px;
+    }
+
+    .item-body p {
+        margin: 0 !important;
+    }
+}

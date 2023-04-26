@@ -1,0 +1,78 @@
+/* .v-input {
+    height: 36px;
+    padding: 5px;
+    border: 1px solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: #BBBBBB;
+    outline: none;
+} */
+
+/* .iconInput {
+    position: absolute;
+    top: 12px;
+    right: 6px;
+    cursor: pointer;
+}
+
+.error {
+    position: absolute;
+    height: 36px;
+    text-align: center;
+    line-height: 20px;
+    z-index: 1;
+    padding: 8px 12px;
+    background-color: #484848;
+    color: #fff;
+    width: 70%;
+    left: 15%;
+    bottom: -50px;
+    display: none;
+}
+
+.error-text {
+    border-color: red;
+}
+
+.error-text:hover~.error {
+    display: block;
+}
+
+.arrow {
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    bottom: 83%;
+    left: 47%;
+    background-color: #484848;
+    transform: rotate(45deg);
+}
+
+@media only screen and (min-width: 740px) and (max-width: 1024px) {
+    .error {
+        width: 100%;
+        left: 0;
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 740px) {
+    .v-input {
+        border: 1px solid;
+        border-radius: 8px;
+        background-color: #fff !important;
+    }
+
+    input::placeholder {
+        color: transparent;
+    }
+
+    .error {
+        
+    }
+
+    .error-text {
+        border-color: red !important;
+    }
+} */
