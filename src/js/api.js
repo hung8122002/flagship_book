@@ -1,26 +1,26 @@
 const api = {
   getApi() {
-    return "http://localhost:3000/book";
+    return "http://api-five-lemon.vercel.app/book";
   },
 
   getWishlist() {
-    return "http://localhost:3000/wishlist";
+    return "http://api-five-lemon.vercel.app/wishlist";
   },
 
   getCategory() {
-    return "http://localhost:3000/category";
+    return "http://api-five-lemon.vercel.app/category";
   },
 
   getFeedBack() {
-    return "http://localhost:3000/feedback";
+    return "http://api-five-lemon.vercel.app/feedback";
   },
 
   getUser() {
-    return "http://localhost:3000/user";
+    return "http://api-five-lemon.vercel.app/user";
   },
 
   getWarehouse() {
-    return "http://localhost:3000/warehouse";
+    return "http://api-five-lemon.vercel.app/warehouse";
   },
 
   getByBookId(bookId) {
@@ -28,11 +28,11 @@ const api = {
   },
 
   getOrder() {
-    return "http://localhost:3000/order";
+    return "http://api-five-lemon.vercel.app/order";
   },
 
   getCart() {
-    return "http://localhost:3000/cart";
+    return "http://api-five-lemon.vercel.app/cart";
   },
 
   getCartUser(user) {
